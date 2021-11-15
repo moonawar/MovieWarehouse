@@ -1,0 +1,6 @@
+.movies{
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    flex-wrap: wrap;
+}

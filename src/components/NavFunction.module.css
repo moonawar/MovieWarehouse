@@ -1,0 +1,14 @@
+.navFunction{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+.route{
+    color: #C04343;
+    text-decoration: none;
+}
+
+.route:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}

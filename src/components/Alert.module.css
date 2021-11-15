@@ -1,0 +1,43 @@
+.alert{
+    position: fixed;
+    background-color: #a83030cc;
+    color: whitesmoke;
+    min-width: 360px; min-height: 60px;
+    padding: 1%;
+    width: 30%; height: 10%;
+    border-radius: 10px; 
+    bottom: 10%;
+    z-index: 10;
+    animation: alertShow 4s ease-out forwards;
+    display: flex;
+    justify-content: center; align-items: center;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
+
+@keyframes alertShow {
+
+    0%{
+        transform: translateY(200%);
+    }
+    5%{
+        transform: translateY(-20%);
+    }
+    10%{
+        transform: translateY(0);
+    }
+    90%{
+        transform: translateY(0);
+    }
+    95%{
+        transform: translateY(-20%);
+    }
+    100%{
+        transform: translateY(200%);
+    }
+
+}

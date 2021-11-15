@@ -1,0 +1,36 @@
+.search{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.searchLabel{
+    width: 100%;
+}
+.searchContainer{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+    width: 100%;
+}
+
+.searchbox{
+    border-radius: 11px;
+    border: unset;
+    width: 90%; height: 28px;
+    padding: 10px;
+    color: #1e1e1e;
+    background-color: rgb(243, 243, 243);
+}
+
+.searchbox:focus{
+   outline: none;
+   background-color: white;
+}
+
+.searchBtn{
+    width: 20px; height: 20px;
+}

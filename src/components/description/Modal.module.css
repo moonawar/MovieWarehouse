@@ -1,0 +1,23 @@
+.modal{
+    background-color: rgb(24, 24, 24);
+    width: 70%; height: 80%;
+    border-radius: 20px;
+    z-index: 30;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+}
+
+.insight{
+    color: white;
+    position: absolute; bottom: 0;
+    background-color: rgba(3, 3, 3, 0.842);
+    width: 100%;
+    padding: 2%;
+    text-align: justify;
+}
+
+.insight p{
+    font-size: 14px;
+}

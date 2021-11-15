@@ -1,0 +1,13 @@
+.backdrop_hide{
+    visibility: hidden;
+    display: none;
+}
+.backdrop_show{
+    height: 100vh; width: 100vw;
+    background-color: rgba(0, 0, 0, 0.726);
+    position: fixed; z-index: 20;
+    display: flex;
+    justify-content: center; align-items: center;
+    visibility: visible;
+}
+

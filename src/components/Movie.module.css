@@ -1,0 +1,62 @@
+.movie{
+    width: 180px; height: 260px;
+    background-color: #C4C4C4;
+    border-radius: 12px;
+    margin: 10px 10px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.title{
+    height: 15%; width: 100%;
+    color: whitesmoke;
+    background-color: #0e0e0eee;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    position: absolute; bottom: 0;
+    padding: 0 1px;
+}
+
+.title:hover{
+    cursor: pointer;
+}
+
+.addButton{
+    background-image: url("../assets/WL-button.png");
+    background-size: contain;
+    width: 30px; height: 30px;
+    position: absolute;
+    top: 13%; right: 5%;
+}
+
+.addButton:hover{
+    background-image: url('../assets/WL-button-hover.png');
+    cursor: pointer;
+}
+
+.removeButton{
+    background-image: url("../assets/RMV-button.png");
+    background-size: contain;
+    width: 30px; height: 30px;
+    position: absolute;
+    top: 13%; right: 5%;
+}
+
+.removeButton:hover{
+    background-image: url('../assets/RMV-button-hover.png');
+    cursor: pointer;
+}
+
+.rating{
+    color: whitesmoke;
+    background-color: #0e0e0e;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 5px;
+}
