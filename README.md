@@ -1,4 +1,4 @@
-# React-moviewarehouse
+# React Movie Warehouse
 **Hello Everyone** 🐸👋This is the continuation of GDSC-moviewarehouse i made previously, bulit with React.js. There are total changes, especially on its main functionality, as this website is more focused on wishlist feature.
 
 ![Main Page](./src/assets/readme/mainmenu.png)
